@@ -7,7 +7,7 @@ Essa aplicação consiste em uma ferramenta de busca de informações de filmes,
 Imagens:
 
 ![Poster](https://github.com/hdalmora/Movie_Records/blob/master/imagens/Poster_v4.png)
-![Movie Records](https://github.com/hdalmora/Movie_Records/blob/master/imagens/screen2.png | width=4)
+![Movie Records](https://github.com/hdalmora/Movie_Records/blob/master/imagens/screen2.png)
 !Movie Records](https://github.com/hdalmora/Movie_Records/blob/master/imagens/screen3.png)
 ![Movie Records](https://github.com/hdalmora/Movie_Records/blob/master/imagens/screen4.png)
 ![Movie Records](https://github.com/hdalmora/Movie_Records/blob/master/imagens/screen5.png)
