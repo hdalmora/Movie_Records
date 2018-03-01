@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_theme_values">
+        <item>Padrão</item>
+        <item>Azul</item>
+        <item>Vermelho</item>
+        <item>Verde</item>
+        <item>Roxo</item>
+        <item>Amarelo</item>
+        <item>Laranja</item>
+        <item>Rosa</item>
+    </string-array>
+    <string-array name="pref_theme_options">
+        <item>Padrão</item>
+        <item>Azul</item>
+        <item>Vermelho</item>
+        <item>Verde</item>
+        <item>Roxo</item>
+        <item>Amarelo</item>
+        <item>Laranja</item>
+        <item>Rosa</item>
+    </string-array>
+
+    <string-array name="pref_language_options">
+        <item>Português</item>
+        <item>Ingles</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>pt</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="pref_bg_image_values">
+        <item>Flat Beautiful Mountain</item>
+        <item>Jungle Landscape</item>
+        <item>Landscape With Mountains</item>
+        <item>Lighthouse</item>
+        <item>Shiny Stars</item>
+        <item>Winter Landscape</item>
+    </string-array>
+    <string-array name="pref_bg_image_options">
+        <item>Flat Beautiful Mountain</item>
+        <item>Jungle Landscape</item>
+        <item>Landscape With Mountains</item>
+        <item>Lighthouse</item>
+        <item>Shiny Stars</item>
+        <item>Winter Landscape</item>
+    </string-array>
+
+</resources>

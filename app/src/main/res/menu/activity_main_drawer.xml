@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item
+        android:id="@+id/nav_ciar_nova_lista"
+        android:icon="@drawable/ic_note_add"
+        android:title="Criar Nova Lista" />-->
+
+    <item android:title="@string/str_meus_favoritos">
+        <menu>
+
+            <item
+                android:id="@+id/nav_listas_filmes"
+                android:title="@string/str_filmes"
+                app:actionViewClass="android.widget.TextView" />
+            <item
+                android:id="@+id/nav_listas_series"
+                android:title="@string/str_series"
+                app:actionViewClass="android.widget.TextView" />
+            <item
+                android:id="@+id/nav_listas_jogos"
+                android:title="@string/str_jogos"
+                app:actionViewClass="android.widget.TextView"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Top 100">
+        <menu>
+            <item
+                android:id="@+id/nav_top_100_movies"
+                android:icon="@drawable/ic_local_movies"
+                android:title="@string/str_top_100_filmes" />
+            <item
+                android:id="@+id/nav_top_100_series"
+                android:icon="@drawable/ic_movie_creation"
+                android:title="@string/str_top_100_series" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/str_geral">
+        <menu>
+            <item
+                android:id="@+id/nav_backup_restore"
+                android:icon="@drawable/ic_import_export"
+                android:title="Backup &amp; Restore" />
+
+            <item
+                android:id="@+id/nav_contatar"
+                android:icon="@drawable/ic_email"
+                android:title="@string/str_contatar_desenvolvedor" />
+
+            <item
+                android:id="@+id/nav_configuracoes"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/str_configuracoes" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_action_info"
+                android:title="@string/str_sobre" />
+
+
+        </menu>
+    </item>
+
+</menu>

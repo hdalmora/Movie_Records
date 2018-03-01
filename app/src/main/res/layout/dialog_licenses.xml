@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#E6373F51">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/dialog_about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open-SourceLicenses"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="false"/>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_close"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@null" />
+
+        <View
+            android:id="@+id/dialog_about_divisor_1"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/dialog_about_title"
+            android:layout_centerHorizontal="true"
+            android:background="#59000000" />
+
+        <TextView
+            android:id="@+id/dialog_about_deselvolvido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_about_divisor_1"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Picasso"/>
+
+        <TextView
+            android:id="@+id/dialog_picasso_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_about_deselvolvido"
+            android:layout_centerHorizontal="false"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="italic"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:text="http://square.github.io/picasso/"/>
+
+        <TextView
+            android:id="@+id/dialog_about_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_picasso_url"
+            android:layout_centerHorizontal="false"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="italic"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/picasso_license"/>
+
+
+        <View
+            android:id="@+id/dialog_about_divisor_2"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/dialog_about_nome"
+            android:layout_centerHorizontal="true"
+            android:background="#59000000" />
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

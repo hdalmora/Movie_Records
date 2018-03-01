@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_movies_lista_favoritos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dalmora.henrique.movierecords.GamesListaFavoritosActivity"
+    tools:showIn="@layout/activity_games_lista_favoritos">
+
+
+    <TextView
+        android:id="@+id/favoritos_games_count_texview"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0 records found"
+        android:layout_marginBottom="15dp"
+        android:padding="1dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/favorite_games_recycler_view"
+        android:layout_below="@+id/favoritos_games_count_texview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_go_to_top_game_favoritos"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#D9373F51"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_expand_less"
+        android:scaleType="center"
+        app:fabSize="mini"/>
+
+</RelativeLayout>

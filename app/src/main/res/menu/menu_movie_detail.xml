@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <!--<item
+        android:id="@+id/action_download_serie_bg"
+        android:orderInCategory="99"
+        android:title="Download Serie BG"
+        app:showAsAction="never" />-->
+
+    <!--<item
+        android:id="@+id/action_add_to_list"
+        android:title="Add to List"
+        android:icon="@drawable/ic_action_add"
+        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/action_favorito"
+        android:title="@string/action_favorito"
+        android:icon="@drawable/ic_star_border"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="always" />
+
+
+</menu>
+
+<!--
+    app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+-->

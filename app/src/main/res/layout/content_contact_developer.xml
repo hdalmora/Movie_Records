@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_contact_developer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dalmora.henrique.movierecords.ContactDeveloperActivity"
+    tools:showIn="@layout/activity_contact_developer">
+
+    <TextView
+        android:id="@+id/causa_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tv_dark_detail_activity"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="start"
+        android:text="Causa: "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/contact_dev_spinner_causa"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/causa_label"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mensagem_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_dev_spinner_causa"
+        android:background="@drawable/bg_tv_dark_detail_activity"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="start"
+        android:text="Mensagem: "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contact_dev_mensagem_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:hint="Digite a mensagem desejada..."
+        android:gravity="top|left"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/mensagem_label"/>
+
+    <TextView
+        android:id="@+id/informacoes_device_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_dev_mensagem_edittext"
+        android:background="@drawable/bg_tv_dark_detail_activity"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="start"
+        android:text="Informações do dispositivo: "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_below="@+id/informacoes_device_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabricante: "/>
+
+            <TextView
+                android:id="@+id/contact_dev_fabricante_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dispositivo: "/>
+
+            <TextView
+                android:id="@+id/contact_dev_dispositivo_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo: "/>
+
+            <TextView
+                android:id="@+id/contact_dev_modelo_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Versão Android: "/>
+
+            <TextView
+                android:id="@+id/contact_dev_androidversion_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo: "/>
+
+            <TextView
+                android:id="@+id/contact_dev_osversion_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 3.10.49-8923866 "/>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

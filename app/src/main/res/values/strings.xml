@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Movie Records</string>
+
+    <string name="navigation_drawer_open">Abrir Barra de Navegação</string>
+    <string name="navigation_drawer_close">Fechar Barra de Navegação</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <string name="title_activity_movie_detail">Detalhes</string>
+
+    <string name="action_share">Compartilhar</string>
+    <string name="title_activity_lista_filmes">Top 100 Filmes</string>
+    <string name="title_activity_movies_lista_favoritos">Filmes Favoritos</string>
+    <string name="title_activity_series_lista_favoritos">Series Favoritas</string>
+    <string name="title_activity_lista_Series">Top 100 Series</string>
+    <string name="title_activity_games_lista_favoritos">Games Favoritos</string>
+    <string name="title_activity_drive_sync">Drive Sync</string>
+    <string name="pref_theme_key" translatable="false">themeStyle</string>
+    <string name="pref_language_key" translatable="false">languageOption</string>
+    <string name="pref_theme_default" translatable="false">Default</string>
+    <string name="pref_bg_image_key" translatable="false">bgImage</string>
+    <string name="pref_bg_image_default" translatable="false">Default</string>
+    <string name="title_activity_contact_developer">Contatar Desenvolvedor</string>
+
+    <string name="picasso_license">Copyright 2013 Square, Inc.\n\n
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.\n
+        You may obtain a copy of the License at\n\n
+
+           http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.</string>
+
+    <string name="str_enviar_email_usando">Enviar email usando....</string>
+    <string name="str_adicionar_favoritos">+ Adicionar aos Favoritos</string>
+    <string name="str_remover_favoritos">- Remover dos Favoritos</string>
+    <string name="str_nenhum_cliente_instalado">Nenhum cliente de email instalado</string>
+    <string name="str_selecione_causa_valida">Selecione uma causa válida</string>
+    <string name="strmin_caracteres">Mínimo 15 caracteres…</string>
+    <string name="str_nenhum_filme_encontrado">Nenhum Filme encontrado…</string>
+    <string name="str_resultados_para"> resultados para </string>
+    <string name="str_entre_nome_de_um_filme">Entre com o nome de um filme !</string>
+    <string name="str_mostrar_como_lista">Mostrar como Lista</string>
+    <string name="str_mostrar_como_grid">Mostrar como Grid</string>
+    <string name="str_sem_conexao_internet">Sem conexão à Internet…</string>
+    <string name="str_minimo_tres_caracteres">Mínimo 3 caracteres…</string>
+    <string name="str_nome_alterado">Nome alterado !</string>
+    <string name="str_alterar">Alterar</string>
+    <string name="str_dig_nome_abaixo">Olá, digite o seu nome abaixo :D</string>
+    <string name="str_alterar_nome">Alterar Nome</string>
+    <string name="str_erro_salvar_informacoes">Erro ao salvar informações, por favor tente novamente…</string>
+    <string name="str_adicionado_favoritos">Adicionado aos Favoritos !</string>
+    <string name="str_erro_ao_remover_favoritos">Erro ao remover dos favoritos</string>
+    <string name="str_removido_favoritos">Removido dos Favoritos</string>
+    <string name="str_nenhuma_informacao_exibir">Nenhuma informação para exibir…</string>
+    <string name="str_main_activity_pesquisar_filme_botao">Para pesquisar, clique no botão acima e digite o nome do filme desejado</string>
+    <string name="str_pesquise_um_filme">Pesquise um filme…</string>
+    <string name="str_bem_vindo">Bem vindo(a),</string>
+    <string name="str_organize_seus_filmes">Organize seus filmes de forma prática</string>
+    <string name="str_filmes">Filmes</string>
+    <string name="str_series">Séries</string>
+    <string name="str_jogos">Jogos</string>
+    <string name="str_top_100_filmes">Top Filmes</string>
+    <string name="str_top_100_series">Top Series</string>
+    <string name="str_geral">Geral</string>
+    <string name="str_contatar_desenvolvedor">Contatar Desenvolvedor</string>
+    <string name="str_configuracoes">Configurações</string>
+    <string name="str_sobre">Sobre</string>
+    <string name="str_meus_favoritos">Meus Favoritos</string>
+    <string name="str_nenhum">Nenhum</string>
+    <string name="str_data_mais_recente">Data Mais Recente</string>
+    <string name="str_data_menos_recente">Data Menos Recente</string>
+    <string name="str_assistidos">Assistidos</string>
+    <string name="str_nao_assistidos">Não Assistidos</string>
+    <string name="action_favorito">Favorito</string>
+
+
+</resources>

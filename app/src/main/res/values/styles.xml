@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!--  OK   -->
+    <style name="ThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#3E50B4</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#ff6699</item>
+    </style>
+
+
+    <!--  OK   -->
+    <style name="ThemeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#EF5350</item>
+        <item name="colorPrimaryDark">#d74242</item>
+        <item name="colorAccent">#e9bf16</item>
+    </style>
+
+
+    <style name="ThemePink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#F06292</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#E07F6D</item>
+    </style>
+
+    <!--  OK   -->
+    <style name="ThemePurple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#6c578e</item>
+        <item name="colorPrimaryDark">#5E4C7B</item>
+        <item name="colorAccent">#8a9287</item>
+    </style>
+
+    <!--  OK   -->
+    <style name="ThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#00665a</item>#
+        <item name="colorPrimaryDark">#003F38</item>
+        <item name="colorAccent">#d1c461</item>
+    </style>
+
+    <!--  OK   -->
+    <style name="ThemeYellow" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#f1bc41</item>#
+        <item name="colorPrimaryDark">#E9A65F</item>
+        <item name="colorAccent">#f2945a</item>
+    </style>
+
+    <!--  OK   -->
+    <style name="ThemeOranje" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#F39927</item>#
+        <item name="colorPrimaryDark">#CC7A2A</item>
+        <item name="colorAccent">#6b767b</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>

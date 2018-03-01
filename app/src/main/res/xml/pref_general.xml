@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:theme="@style/AppTheme.NoActionBar"
+        android:title="Aparência">
+
+        <ListPreference
+            android:defaultValue="Default"
+            android:entries="@array/pref_theme_options"
+            android:entryValues="@array/pref_theme_values"
+            android:key="@string/pref_theme_key"
+            android:title="Alterar Cor Action Bar" />
+
+        <ListPreference
+            android:defaultValue="Default"
+            android:entries="@array/pref_bg_image_options"
+            android:entryValues="@array/pref_bg_image_values"
+            android:key="@string/pref_bg_image_key"
+            android:title="Alterar Imagem de Fundo" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:theme="@style/AppTheme.NoActionBar"
+        android:title="Idioma">
+
+        <ListPreference
+            android:defaultValue="Default"
+            android:entries="@array/pref_language_options"
+            android:entryValues="@array/pref_language_values"
+            android:key="@string/pref_language_key"
+            android:title="Alterar idioma" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Info"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <Preference
+            android:key="open_sourece_licenses"
+            android:title="Open-Source-Licenses" />
+        <Preference
+            android:key="movie_records_version"
+            android:title="Movie Records Version"
+            android:summary="0.1.0"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

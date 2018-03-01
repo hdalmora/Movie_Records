@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#373F51</color>
+    <color name="colorPrimaryDark">#232934</color>
+    <color name="colorAccent">#E07F6D</color>
+    <color name="bg_movie_watched">#E8F5E9</color>
+    <color name="bg_movie_not_watched">#f9f9f9</color>
+    <color name="bg_splash_screen">#337a0026</color>
+
+</resources>

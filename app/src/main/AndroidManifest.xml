@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dalmora.henrique.movierecords">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/movie_records_logo_v3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="android.support.multidex.MultiDexApplication">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".MovieDetailActivity"
+            android:label="@string/title_activity_movie_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListaTopMoviesActivity"
+            android:label="@string/title_activity_lista_filmes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListaTopSeriesActivity"
+            android:label="@string/title_activity_lista_Series"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MoviesListaFavoritosActivity"
+            android:label="@string/title_activity_movies_lista_favoritos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeriesListaFavoritosActivity"
+            android:label="@string/title_activity_series_lista_favoritos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GamesListaFavoritosActivity"
+            android:label="@string/title_activity_games_lista_favoritos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DriveSyncActivity"
+            android:label="@string/title_activity_drive_sync"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactDeveloperActivity"
+            android:label="@string/title_activity_contact_developer"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

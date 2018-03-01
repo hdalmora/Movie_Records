@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort_nenhum"
+        android:title="@string/str_nenhum"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_data_crescente"
+        android:title="@string/str_data_mais_recente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_data_decrescente"
+        android:title="@string/str_data_menos_recente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_assistidos"
+        android:title="@string/str_assistidos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_nao_assistidos"
+        android:title="@string/str_nao_assistidos"
+        app:showAsAction="never" />
+
+
+</menu>
